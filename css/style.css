@@ -1,0 +1,89 @@
+* {
+  font-family: 'Droid Serif', serif;
+}
+
+body {
+  -webkit-background-size: 24px 24px;
+  -moz-background-size: 24px 24px;
+  background-size: 24px 24px;
+  background-color: #fef3ed;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, #fae1dc), color-stop(.5, transparent), to(transparent));
+  background-image: -moz-linear-gradient(left, #fae1dc 50%, transparent 50%, transparent);
+  background-image: -o-linear-gradient(left, #fae1dc 50%, transparent 50%, transparent);
+  background-image: linear-gradient(left, #fae1dc 50%, transparent 50%, transparent);
+  margin: 0;
+  padding: 0 20px;
+}
+
+#content {
+  max-width: 800px;
+  padding: 1em 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+header .logo {
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 5em;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1.5em
+}
+
+ul.center {
+  text-align: center;
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+ul.center li{
+  margin-bottom: 0.25em;
+}
+
+.members {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.member {
+  width: 150px;
+  padding: 10px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+}
+
+.member p {
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+}
+
+footer {
+  margin-top: 4em;
+  text-align: center;
+}
